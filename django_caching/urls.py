@@ -20,5 +20,7 @@ from django.views.decorators.cache import cache_page
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', cache_page(10)(views.AlbumListView.as_view()), name='album-list'),
+    # path('', cache_page(10)(views.AlbumListView.as_view()), name='album-list'),
+    # path('', views.AlbumListView.as_view(), name='album-list'),
+    path('', views.album_list, name='album-list-cache'),
 ]
