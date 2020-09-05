@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Album list</title>
+    </head>
+    <body>
+        <table cellspacing="30" border="1" cellpadding="5">
+            <thead>
+                <tr>
+                    <th>Album</th>
+                    <th>Artists</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for album in object_list %}
+                    <tr>
+                        <td>{{ album.name }}</td>
+                        <td>{{ album.artist }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+            <caption>
+                <small>Album list</small>
+            </caption>
+        </table>
+    </body>
+</html>

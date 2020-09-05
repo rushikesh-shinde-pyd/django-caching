@@ -1,0 +1,1 @@
+[{"model": "core.album", "pk": 1, "fields": {"name": "freedom", "artist": "akon"}}, {"model": "core.album", "pk": 2, "fields": {"name": "red", "artist": "taylor swift"}}, {"model": "core.album", "pk": 3, "fields": {"name": "konvict", "artist": "akon"}}, {"model": "core.album", "pk": 4, "fields": {"name": "thriller", "artist": "micheal jackson"}}]
